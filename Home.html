@@ -3,9 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>OXCER Home</title>
   </head>
   <body>
-    <h1 class="bg-blue-900">Swapnil</h1>
+    <!-- <h1 class="bg-blue-900 text-red-100">OXCER</h1> -->
+    <nav class="bg-purple-800 text-white flex justify-between">
+      <div class="flex">
+        <img
+          src="https://randomuser.me/api/portraits/thumb/men/75.jpg"
+          alt="img"
+          class="py-4 px-3 rounded-3xl"
+        />
+        <span
+          class="flex items-center mx-4 font-bold text-4xl whitespace-nowrap"
+          >Phone book</span
+        >
+      </div>
+      <ul class="px-28 py-7 flex space-x-11 justify-end">
+        <li
+          class="cursor-pointer hover:text-orange-300 text-lg border-transparent border-2 pt-2"
+        >
+          Home
+        </li>
+        <li
+          class="cursor-pointer hover:text-orange-300 text-lg border-transparent border-2 pt-2"
+        >
+          Services
+        </li>
+        <li
+          class="cursor-pointer hover:text-orange-300 text-lg border-transparent border-2 pt-2"
+        >
+          Portfolio
+        </li>
+        <li
+          class="cursor-pointer hover:text-orange-300 text-lg border-transparent border-2 pt-2"
+        >
+          Help
+        </li>
+        <li
+          class="cursor-pointer hover:text-orange-300 text-lg border-transparent border-2 pt-2"
+        >
+          Contact us
+        </li>
+        <li class="text-lg border-transparent border-2">
+          <button
+            class="mx-4 bg-purple-800 py-2 px-4 rounded-lg transition duration-500 cursor-pointer text-white border-2 hover:text-slate-900 hover:bg-slate-300 hover:border-purple-900"
+          >
+            Get Started
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <main class="bg-slate-400 flex justify-around">
+      <div class="main pl-9 py-14">
+        <div class="text-7xl text-black-400">The best Website</div>
+        <p class="py-4 w-1/2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          deleniti assumenda adipisci voluptatem repudiandae, odio ipsa debitis
+          voluptate possimus sequi?
+        </p>
+        <div class="buttons my-6">
+          <button
+            class="mx-4 bg-purple-800 py-3 px-4 rounded-3xl cursor-pointer text-white font-bold border-2 border-transparent hover:text-slate-900 hover:bg-slate-300 hover:font-bold hover:border-purple-900"
+          >
+            Buy Now!
+          </button>
+          <button
+            class="mx-4 bg-purple-800 py-3 px-4 rounded-3xl cursor-pointer text-white font-bold border-2 border-transparent hover:text-slate-900 hover:bg-slate-300 hover:font-bold hover:border-purple-900"
+          >
+            Contact Us!
+          </button>
+          <button
+            class="mx-4 bg-purple-800 py-3 px-4 rounded-3xl cursor-pointer text-white font-bold border-2 border-transparent hover:text-slate-900 hover:bg-slate-300 hover:font-bold hover:border-purple-900"
+          >
+            Click me!
+          </button>
+        </div>
+      </div>
+      <div class="flex items-center">
+        <img
+          src="./Image/businessman-using-phone-png.png"
+          alt="phoneCallImg"
+          class=""
+        />
+      </div>
+    </main>
   </body>
 </html>

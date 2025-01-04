@@ -9,5 +9,19 @@
   },
   "dependencies": {
     "vite": "^6.0.7"
-  }
+  },
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "I’m just starting to learn Tailwind CSS! It’s a utility-first framework that helps style HTML directly with classes. There’s a lot to learn, and I’m excited to explore how it can make web design easier and faster.",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swapnil-Magare/Tailwind-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swapnil-Magare/Tailwind-CSS/issues"
+  },
+  "homepage": "https://github.com/Swapnil-Magare/Tailwind-CSS#readme"
 }
