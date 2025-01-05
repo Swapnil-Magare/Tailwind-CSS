@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tailwind Setup Steps</title>
+  </head>
+  <body class="bg-gray-100 p-6 font-sans">
+    <span>Description</span>
+    <div class="bg-red-500 text-white">
+      This page demonstrates how to set up Tailwind CSS step-by-step, showcasing
+      commands in a clean, code-block format.
+      <div class="bg-purple-900">This is start-up</div>
+    </div>
+    <div class="max-w-4xl mx-auto bg-white shadow-md rounded-md p-6">
+      <h1 class="text-2xl font-bold mb-4">Tailwind CSS Setup Steps</h1>
+      <div class="bg-gray-800 text-white p-4 rounded-md">
+        <pre><code class="block overflow-x-auto text-sm leading-relaxed">
+  1. Initialize Node.js Project
+     npm init -y
+  
+  2. Install Required Packages
+     npm install -D tailwindcss postcss autoprefixer vite
+  
+  3. Create Tailwind Configuration File
+     npx tailwindcss init -p
+  
+  4. Create CSS File
+     Create a file named "input.css" and add:
+     @tailwind base;
+     @tailwind components;
+     @tailwind utilities;
+  
+  5. Update Tailwind Configuration
+     In tailwind.config.js, update content to:
+     content: ["*"],
+  
+  6. Update package.json Scripts
+     Add the following to the "scripts" section:
+     "start": "vite"
+  
+  7. Start the Development Server
+     npm run start
+              </code></pre>
+      </div>
+    </div>
+  </body>
+</html>
